@@ -1,11 +1,9 @@
- <style>
-         
         
-         body {
+     body {
       font-family: "Arial";
       color: black;
       background: white;
-      padding: 30px;
+      padding: 20px;
     }
     
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -77,4 +75,3 @@
   #title_and_paragraf1 h1 { font-size: 28px; }
 }
           
- </style>
