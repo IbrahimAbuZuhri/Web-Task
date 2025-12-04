@@ -1,24 +1,123 @@
  <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+
+      <meta charset="utf-8" />
       <title>BOOK STORE</title>
         <style>
-         
+          body {
+      font-family: "Arial";
+      color: black;
+      background: white;
+      padding: 30px;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    #row  {
+      font-size: 20px;
+      background-color: rgb(24, 110, 190);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      height:30px ;
+    }
+
+#part_1{
+      margin: 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      width: 100%;
+      max-width: 1300px;
+       }
+                                 
+#img1{
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 220px;
+     }
+
+#img11{
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-radius: 6px;
+       }       
+
+ #title_and_paragraf1{
+                        
+       width: 45%;
+       min-width: 240px;
+                            
+                      }
+
+ #title_1{
+                        
+     display: inline-block;
+     color: rgb(8, 137, 201);
+     font-size: 36px;
+     margin-bottom: 16px;
+          }
+          
+#title_and_paragraf1 p {
+    
+      margin-bottom: 18px;
+   
+                    }
+            
+ @media (max-width: 800px) {
+  #part_1 { flex-direction: column-reverse; text-align: center; }
+  #title_and_paragraf1 { width: 100%; text-align: center; }
+  #img1 { width: 100%; }
+  #title_and_paragraf1 h1 { font-size: 28px; }
+}
+          
            
         </style>
     </head>
 <body>
    
-    <h1 >Welcome</h1>
-    <div style="display:block ; display: flex ; align-items: flex-start; ">
-        <nav >
-        
-        </nav>
-        
-    </div>
+   
+    <div>
+         
+           <nav id="row">
+              <a href="">11</a>
+              <a href="">22</a>
+              <a href="">33</a>
+              <a href="">44</a>
+              <a href="">55</a>
+              <a href="">66</a>
+
+            </nav>
+
+            <div id="part_1">
+              <div id="title_and_paragraf1">
+                  <h1>WELCOME TO <br> <span id="title_1">BOOK STORE</span> </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias atque
+                    laborum non fuga ex deserunt. Exercitationem velit ducimus praesentium, obcaecati hic
+                    voluptate id tenetur fuga illum quidem omnis? Rerum?
+                  </p>
+              </div>
+                <div id="img1">
+                <img id="img11" src="table.png" alt="" >
+                </div>
+
+            </div>
+   </div>
+          
+    
     
 
 
 </body>
-</html>
 </html>
