@@ -225,7 +225,102 @@
       box-shadow: 0 0 15px 5px rgba(18, 211, 245, 0.5);
   }
   
+/* ===========================   PART 4=========================== */
 
+#part_4 {
+      padding: 60px 20px;
+      max-width: 1500px;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  #part_4 .main-title {
+      font-size: 28px;
+      margin-bottom: 25px;
+      font-weight: bold;
+  }
+  
+  .featured-carousel {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding-bottom: 15px;
+      scrollbar-width: thin;
+  }
+  
+  .featured-carousel::-webkit-scrollbar {
+      height: 8px;
+  }
+  
+  .featured-carousel::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 6px;
+  }
+  
+  .fcard {
+      flex: 0 0 180px;
+      background: #fff;
+      border: 1px solid #d1d9e6;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(18, 211, 245, 0.4);
+      padding: 12px;
+      text-align: center;
+      transition: 0.3s ease;
+  }
+  
+  .fcard:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 25px rgba(18, 211, 245, 0.6);
+  }
+  
+  .fcard img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 4px;
+      margin-bottom: 10px;
+  }
+  
+  .fcard h4 {
+      font-size: 15px;
+      margin-bottom: 6px;
+  }
+  
+  .fcard p {
+      font-size: 12px;
+      color: #555;
+  }
+  
+  .fcard span {
+      color: #777;
+  }
+  
+  .fcard .price {
+      margin: 10px 0;
+      font-size: 14px;
+      color: rgb(15, 162, 236);
+      font-weight: bold;
+  }
+  
+  .fcard .old {
+      color: #999;
+      text-decoration: line-through;
+      font-size: 12px;
+      margin-left: 5px;
+  }
+  
+  .fcard button {
+      padding: 6px 12px;
+      border: 1px solid rgb(18, 211, 245);
+      background: white;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  
+  .fcard button:hover {
+      background: rgba(18, 211, 245, 0.1);
+  }
   
   
             
