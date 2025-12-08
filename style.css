@@ -180,7 +180,9 @@
 
 #title_and_paragraf2 p{
       margin-bottom: 18px;
-}                 
+}     
+ /* ===========================   PART 3 =========================== */
+
 #part_3 {
       display: flex;
       justify-content: space-around;
@@ -242,39 +244,36 @@
   
   .featured-carousel {
       display: flex;
-      gap: 20px;
+      gap: 40px;
       overflow-x: auto;
       padding-bottom: 15px;
       scrollbar-width: thin;
   }
   
-  .featured-carousel::-webkit-scrollbar {
+  .featured-carousel::-webkit-scrollbar {  
       height: 8px;
   }
   
-  .featured-carousel::-webkit-scrollbar-thumb {
-      background: rgba(0, 0, 0, 0.25);
-      border-radius: 6px;
-  }
+  
   
   .fcard {
       flex: 0 0 180px;
       background: #fff;
       border: 1px solid #d1d9e6;
-      border-radius: 8px;
-      box-shadow: 0 4px 15px rgba(18, 211, 245, 0.4);
+      border-radius: 15px;
+     /* box-shadow: 0 4px 15px rgba(18, 211, 245, 0.4);*/
       padding: 12px;
       text-align: center;
-      transition: 0.3s ease;
+      transition: 0.5s ease;
   }
   
   .fcard:hover {
-      transform: translateY(-6px);
+      transform: translateY(-15px);
       box-shadow: 0 8px 25px rgba(18, 211, 245, 0.6);
   }
   
   .fcard img {
-      width: 100%;
+      width: 90%;
       height: 220px;
       object-fit: cover;
       border-radius: 4px;
@@ -292,7 +291,7 @@
   }
   
   .fcard span {
-      color: #777;
+      color: #22b7e4;
   }
   
   .fcard .price {
@@ -344,6 +343,12 @@
     #part_3 {
       justify-content: center;
       gap: 15px;
+  }
+  .fcard {
+      flex: 0 0 150px;
+  }
+  .fcard img {
+      height: 180px;
   }
 }
           
