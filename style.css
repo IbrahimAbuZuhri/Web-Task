@@ -352,7 +352,7 @@
       box-shadow: none;           
       text-align: center;
       box-shadow: 0 13px 10px -7px  rgba(48, 196, 245, 0.8);      }
-  #part_1 { flex-direction: column; text-align: center; padding-top: 350px;}
+  #part_1 { flex-direction: column; text-align: center; padding-top: 150px;}
   #title_and_paragraf1 { width: 100%; text-align: center; }
   #img1 { width: 100%; }
   #title_and_paragraf1 h1 { font-size: 28px; }
