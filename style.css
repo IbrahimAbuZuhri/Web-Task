@@ -28,7 +28,7 @@
       
     }
     #row a {
-      align-items: center;
+   
       text-decoration: none;
       color: #000;
           }
@@ -38,6 +38,8 @@
       gap: 20px; 
       justify-content: center;
       flex: 1; 
+      flex-wrap: wrap;
+      align-items: center;
     }
     #icon{
       display: flex;
