@@ -320,8 +320,20 @@
   .fcard button:hover {
       background: rgba(18, 211, 245, 0.1);
   }
+  /* ===========================  button in p =========================== */
   
+  header button {
+      padding: 6px 12px;
+      border: 1px solid rgb(18, 211, 245);
+      background: white;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
   
+  header button:hover {
+      background: rgba(18, 211, 245, 0.1);
+  }
             
  @media (max-width: 800px) {
 
