@@ -383,7 +383,18 @@ header button:hover {
     background-color: var(--bg-light);
 }
 
+.reviews-h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+}
 
+.reviews_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
 
 .reviews_card {
     flex: 1 1 25rem;
@@ -427,19 +438,7 @@ header button:hover {
     position: relative; 
     min-height: 80%; 
 }
-/* تم حذف هذا الكود لأنه لم يعد مستخدماً في الـ HTML الجديد:
-#digital_book > button { 
-    position: absolute;
-    left: 7%; 
-    bottom: 80%; 
-    background-color: #089da1;
-    color: white;
-    border: none;
-    padding: 0.8em 1.5em;
-    font-size: 1rem;
-    cursor: pointer;
-}
-*/
+
 .digital_book_img {
     width: 100%;
     height: 100%;
@@ -450,7 +449,7 @@ header button:hover {
 
 .digital-text-overlay { 
     position: absolute; 
-    top: 50%; 
+    top: 80%; 
     left: 10%; 
     transform: translateY(-50%);
     
@@ -485,8 +484,7 @@ header button:hover {
 .blog_card {
     width: calc(33.33% - 1.333rem); 
     background-color: #fff;
-    padding: 1rem;
-    border-radius: 0.5rem;
+    
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
