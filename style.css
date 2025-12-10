@@ -605,3 +605,15 @@ header button:hover {
         text-align: center;
     }
 }
+#links {
+        display: none; /* Hide links by default on mobile */
+    }
+    
+    #extra {
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 2rem;
+        font-size: 2rem;
+    }
