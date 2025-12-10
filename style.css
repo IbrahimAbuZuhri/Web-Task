@@ -617,3 +617,13 @@ header button:hover {
         padding: 0 2rem;
         font-size: 2rem;
     }
+    #extra a { margin-right: 2rem; }
+    .menu-toggle { display: block; }
+    
+    #part_1 { padding-top: 25rem; }
+    #part_1, #part_2 { flex-direction: column; } /* Reversed back to normal column flow */
+
+    #title_and_paragraf1 h1, #title_and_paragraf2 h1 { font-size: 2.8rem; }
+    .fcard { flex: 0 0 15rem; }
+    .fcard img { height: 18rem; }
+    .arrivals-grid { grid-template-columns: 1fr; } /* Single column for phone */
