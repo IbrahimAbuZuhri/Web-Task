@@ -414,4 +414,48 @@ header button:hover {
     font-size: 4rem;
     color: #eee;
 }
+#digital_book {
+    position: relative; 
+    min-height: 10%; 
+}
+#digital_book > button { 
+    position: absolute;
+    left: 7%; 
+    bottom: 10%; 
+    background-color: #089da1;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.digital_book_img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.digital-text-overlay { 
+    position: absolute; 
+    top: 80%; 
+    left: 10%; 
+    transform: translateY(-50%);
+    
+    max-width: 90%; 
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    color: #ffffff; 
+}
+
+
+.digital-text-overlay button { 
+    background-color: #089da1;
+    color: white;
+    border: none;
+    padding: 0.4em 1em; 
+    margin-top: 15px; 
+    cursor: pointer;
+}
 
