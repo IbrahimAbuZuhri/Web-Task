@@ -319,25 +319,34 @@ header button:hover {
     font-size: 3.5rem;
     margin-bottom: 3rem;
     display: inline-block;
-    border-bottom: 0.2rem solid var(--primary);
+    
 }
 
 .arrivals-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
+    
 }
 
+
+
 .book-box2 {
-    background: white;
-    border: 0.1rem solid #eee;
-    padding: 1.5rem;
-    transition: 0.3s;
+    
+ background: white;
+    
+      padding: 1.5rem; 
+      border: 0.1rem solid #d1d9e6; 
+       border-radius: 1.5rem; 
+    box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.1); 
+      cursor: pointer;
+       transition: 0.5s ease;
 }
 
 .book-box2:hover {
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
-    border-color: var(--primary);
+      transform: translateY(-1.5rem);
+      box-shadow: 0 0.8rem 2.5rem rgba(18, 211, 245, 0.6); 
+      background: #fff;
 }
 
 .book-box2 .image img {
@@ -359,6 +368,50 @@ header button:hover {
 }
 .book-btn:hover { background: var(--primary); color: white; }
 .checked { color: #98c3bd; }
-.stars { font-size: 1.4rem; margin: 1rem 0; }
+.stars { font-size: 1.4rem; margin: 1rem 0; 
+}
+/* ================= Reviews Section (My New Section) ================= */
+#reviews {
+    padding: 5rem 5%;
+    background-color: var(--bg-light);
+}
 
+.reviews-h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+}
+
+.reviews_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.reviews_card {
+    flex: 1 1 25rem;
+    background: white;
+    padding: 2rem;
+    border: 0.1rem solid #e0e0e0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.reviews_img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews_h3 { font-size: 1.6rem; margin: 1rem 0; }
+.reviews_p { font-size: 1.3rem; line-height: 1.5; color: #555; }
+.reviews_qouto {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 4rem;
+    color: #eee;
+}
 
