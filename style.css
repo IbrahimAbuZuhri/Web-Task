@@ -518,4 +518,21 @@ header button:hover {
 
 .col1 img { width: 15rem; margin-bottom: 1.5rem; }
 .col1 p { font-size: 1.3rem; line-height: 1.6; }
+#footer h3 { font-size: 1.6rem; margin-bottom: 2rem; }
+
+.elements a, .elements span, .elements div {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.textarea {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+}
 
