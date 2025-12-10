@@ -309,7 +309,7 @@ header button:hover {
     background: rgba(18, 211, 245, 0.1);
 }
 
-/* ================= New Arrivals (My New Section) ================= */
+/* ================= New Arrivals (Section of Bahaa) ================= */
 .second-sec {
     padding: 4rem 5%;
     text-align: center;
@@ -370,7 +370,7 @@ header button:hover {
 .checked { color: #98c3bd; }
 .stars { font-size: 1.4rem; margin: 1rem 0; 
 }
-/* ================= Reviews Section (My New Section) ================= */
+/* ================= Reviews Section (Section of Bahaa) ================= */
 #reviews {
     padding: 5rem 5%;
     background-color: var(--bg-light);
@@ -564,4 +564,17 @@ header button:hover {
 
     #part_1 { padding-top: 8rem; } /* Reduced top padding to fit better */
     .arrivals-grid { grid-template-columns: repeat(2, 1fr); }
+}
+/* Mobile (iPhone XR approx 768px & smaller) */
+@media (max-width: 800px) {
+    html { font-size: 50%; }
+
+    #row {
+        flex-direction: column;
+        height: auto;
+        padding: 1.5rem 0;
+        gap: 1.2rem;
+        box-shadow: 0 1.3rem 1rem -0.7rem rgba(48, 196, 245, 0.8);
+        text-align: center;
+    }
 }
