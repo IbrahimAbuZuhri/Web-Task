@@ -1,420 +1,364 @@
- body {
-              font-family: "Arial";
-              color: black;
-              background: white;
-              margin: 0;
-              padding: 0;
-        }
-
-        * {
-              box-sizing: border-box;
-              margin: 0;
-              padding: 0;
-        }
-
-        #row {
-              position: fixed;
-              top: 0;
-              left: 0;
-              z-index: 1000;
-              font-size: 20px;
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              gap: 30px;
-              width: 100%;
-              margin: 0;
-              padding: 0 30px;
-              height: 60px;
-              box-shadow: 0 13px 10px -7px rgba(48, 196, 245, 0.8);
-              background-color: #fff;
-
-        }
-
-        #row a {
-
-              text-decoration: none;
-              color: #000;
-        }
-
-        #links {
-              display: flex;
-              gap: 20px;
-              justify-content: center;
-              flex: 1;
-              flex-wrap: wrap;
-              align-items: center;
-        }
-
-        #icon {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 80px;
-              height: 40px;
-
-        }
-
-
-        #part_1 {
-              margin: 20px auto;
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              padding: 40px 20px;
-              gap: 30px;
-              width: 100%;
-              height: 70%;
-              padding-top: 80px;
-              max-width: 1500px;
-              background-image: url('bg.png');
-              background-size: contain;
-              background-position: center;
-              background-repeat: no-repeat;
-              border-radius: 6px;
-              position: relative;
-        }
-
-        #img1 {
-              width: 45%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              min-width: 220px;
-        }
-
-        #img11 {
-              max-width: 100%;
-              height: auto;
-              display: flex;
-              justify-content: center;
-              box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-              border-radius: 6px;
-        }
-
-        #title_and_paragraf1 {
-
-              width: 45%;
-              min-width: 240px;
-
-        }
-
-        #title_1 {
-
-              display: inline-block;
-              color: rgb(15, 162, 236);
-              font-size: 36px;
-              margin-bottom: 16px;
-        }
-
-        #title_and_paragraf1 p {
-
-              margin-bottom: 18px;
-
-        }
-
-        #part_2 {
-              margin: 0 auto;
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              padding: 40px 20px;
-              gap: 30px;
-              width: 100%;
-              max-width: 1500px;
-
-        }
-
-        #img2 {
-              width: 45%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              min-width: 220px;
-        }
-
-        #img22 {
-              max-width: 100%;
-              height: auto;
-              display: flex;
-              justify-content: center;
-              box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-              border-radius: 6px;
-        }
-
-        #title_and_paragraf2 {
-              width: 45%;
-              min-width: 240px;
-        }
-
-        #title_2 {
-              display: inline-block;
-              color: rgb(8, 137, 201);
-              font-size: 36px;
-              margin-bottom: 16px;
-        }
-
-        #title_and_paragraf2 p {
-              margin-bottom: 18px;
-        }
-
-        #part_2 {
-              margin: 0 auto;
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              padding: 40px 20px;
-              gap: 30px;
-              width: 100%;
-              max-width: 1500px;
-
-        }
-
-        #img2 {
-              width: 45%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              min-width: 220px;
-        }
-
-        #img22 {
-              max-width: 100%;
-              height: auto;
-              display: flex;
-              justify-content: center;
-              box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-              border-radius: 6px;
-        }
-
-        #title_and_paragraf2 {
-              width: 45%;
-              min-width: 240px;
-        }
-
-
-
-        #title_and_paragraf2 p {
-              margin-bottom: 18px;
-        }
-
-        /* ===========================   PART 3 =========================== */
-
-        #part_3 {
-              display: flex;
-              justify-content: space-around;
-              align-items: flex-start;
-              gap: 20px;
-              flex-wrap: wrap;
-              padding: 60px 20px;
-              max-width: 1500px;
-              margin: 0 auto;
-        }
-
-        #part_3 .card {
-              flex: 1 1 220px;
-              background: white;
-              border: 1px solid #d1d9e6;
-              box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-              border-radius: 8px;
-              padding: 20px;
-              text-align: center;
-
-        }
-
-        #part_3 .card i {
-              font-size: 36px;
-              color: rgb(44, 201, 254);
-              margin-bottom: 15px;
-        }
-
-        #part_3 .card h3 {
-              font-size: 20px;
-              margin-bottom: 10px;
-        }
-
-        #part_3 .card p {
-              font-size: 14px;
-              color: #555;
-        }
-
-
-        #part_3 .card {
-
-              box-shadow: 0 0 15px 5px rgba(18, 211, 245, 0.5);
-        }
-
-        /* ===========================   PART 4=========================== */
-
-        #part_4 {
-              padding: 60px 20px;
-              max-width: 1500px;
-              margin: 0 auto;
-              text-align: center;
-        }
-
-        #part_4 .main-title {
-              font-size: 28px;
-              margin-bottom: 25px;
-              font-weight: bold;
-        }
-
-        .featured-carousel {
-              display: flex;
-              gap: 40px;
-              overflow-x: auto;
-              padding-bottom: 15px;
-              scrollbar-width: thin;
-        }
-
-        .featured-carousel::-webkit-scrollbar {
-              height: 8px;
-        }
-
-
-
-        .fcard {
-              flex: 0 0 180px;
-              background: #fff;
-              border: 1px solid #d1d9e6;
-              border-radius: 15px;
-              /* box-shadow: 0 4px 15px rgba(18, 211, 245, 0.4);*/
-              padding: 12px;
-              text-align: center;
-              transition: 0.5s ease;
-        }
-
-        .fcard:hover {
-              transform: translateY(-15px);
-              box-shadow: 0 8px 25px rgba(18, 211, 245, 0.6);
-        }
-
-        .fcard img {
-              width: 90%;
-              height: 220px;
-              object-fit: cover;
-              border-radius: 4px;
-              margin-bottom: 10px;
-        }
-
-        .fcard h4 {
-              font-size: 15px;
-              margin-bottom: 6px;
-        }
-
-        .fcard p {
-              font-size: 12px;
-              color: #555;
-        }
-
-        .fcard span {
-              color: #22b7e4;
-        }
-
-        .fcard .price {
-              margin: 10px 0;
-              font-size: 14px;
-              color: rgb(15, 162, 236);
-              font-weight: bold;
-        }
-
-        .fcard .old {
-              color: #999;
-              text-decoration: line-through;
-              font-size: 12px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-              margin-left: 5px;
-        }
-
-        .fcard button {
-              padding: 6px 12px;
-              border: 1px solid rgb(18, 211, 245);
-              background: white;
-              border-radius: 4px;
-              cursor: pointer;
-              transition: 0.3s;
-        }
-
-        .fcard button:hover {
-              background: rgba(18, 211, 245, 0.1);
-        }
-
-        /* ===========================  button in p =========================== */
-
-        header button {
-              color: #000000;
-              padding: 6px 12px;
-              border: 1px solid rgb(18, 211, 245);
-              background: rgb(16, 211, 250);
-              border-radius: 4px;
-              cursor: pointer;
-              transition: 0.3s;
-        }
-
-        header button:hover {
-              background: rgba(18, 211, 245, 0.1);
-        }
-
-        @media (max-width: 800px) {
-
-
-              #row {
-                    flex-direction: column;
-
-                    height: auto;
-                    padding: 15px 0;
-                    gap: 12px;
-                    box-shadow: none;
-                    text-align: center;
-                    box-shadow: 0 13px 10px -7px rgba(48, 196, 245, 0.8);
-              }
-
-              #part_1 {
-                    flex-direction: column;
-                    text-align: center;
-                    padding-top: 250px;
-              }
-
-              #title_and_paragraf1 {
-                    width: 100%;
-                    text-align: center;
-              }
-
-              #img1 {
-                    width: 100%;
-              }
-
-              #title_and_paragraf1 h1 {
-                    font-size: 28px;
-              }
-
-              #part_2 {
-                    flex-direction: column;
-                    text-align: center;
-              }
-
-              #title_and_paragraf2 {
-                    width: 100%;
-                    text-align: center;
-              }
-
-              #img2 {
-                    width: 100%;
-              }
-
-              #title_and_paragraf2 h1 {
-                    font-size: 28px;
-              }
-
-              #part_3 {
-                    justify-content: center;
-                    gap: 15px;
-              }
-
-              .fcard {
-                    flex: 0 0 150px;
-              }
-
-              .fcard img {
-                    height: 180px;
-              }
-        }
+/* ================= Base & Utility Styles (Unified) ================= */
+:root {
+    --primary: #089da1; /* تم توحيد اللون الأزرق */
+    --text-dark: #333;
+    --bg-light: #f9f9f9;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Arial";
+    color: black;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ================= Header/Navbar (Based on colleague's IDs) ================= */
+
+#row {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem; /* Adjusted to rem */
+    width: 100%;
+    margin: 0;
+    padding: 0 3rem; /* Adjusted to rem */
+    height: 6rem; /* Adjusted to rem */
+    box-shadow: 0 0.1rem 0.6rem var(--primary); /* Adjusted shadow style/color */
+    background-color: #fff;
+}
+
+#row a {
+    text-decoration: none;
+    color: #000;
+}
+/* Style for icons */
+#extra i {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+#extra i:hover, #links a:hover {
+    color: var(--primary);
+}
+
+
+#links {
+    display: flex;
+    gap: 2rem; /* Adjusted to rem */
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem; /* Adjusted to rem */
+    height: 4rem; /* Adjusted to rem */
+}
+.menu-toggle {
+    display: none; /* Only visible on mobile */
+    font-size: 2.5rem;
+}
+
+/* ================= Hero Section (part_1 - Colleague) ================= */
+
+#part_1 {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 3rem;
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 8rem; /* Space for fixed header */
+    max-width: 150rem; /* Adjusted to rem */
+    background-image: url('bg.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.6rem;
+    position: relative;
+}
+
+#img1, #title_and_paragraf1 {
+    flex: 1 1 45rem; /* Flexible basis based on rem */
+    min-width: 22rem; /* Adjusted to rem */
+}
+
+#img11 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.8); /* Adjusted to rem */
+    border-radius: 0.6rem;
+}
+
+#title_and_paragraf1 h1 {
+    font-size: 4rem; /* Adjusted from px */
+}
+
+#title_1 {
+    display: inline-block;
+    color: var(--primary);
+    font-size: 3.6rem; /* Adjusted to rem */
+    margin-bottom: 1.6rem; /* Adjusted to rem */
+}
+
+#title_and_paragraf1 p {
+    margin-bottom: 1.8rem; /* Adjusted to rem */
+    font-size: 1.6rem;
+}
+/* Style for buttons in header (Hero/About) */
+header button {
+    color: white; /* Changed button text color */
+    padding: 1rem 2rem;
+    border: none;
+    background: var(--primary); /* Unified primary color */
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.6rem;
+}
+
+header button:hover {
+    background: rgba(8, 157, 161, 0.8);
+}
+
+/* ================= Features Section (part_3 - Colleague) ================= */
+#part_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 6rem 2rem;
+    max-width: 150rem;
+    margin: 0 auto;
+}
+
+#part_3 .card {
+    flex: 1 1 22rem;
+    background: white;
+    border: 0.1rem solid #d1d9e6;
+    box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#part_3 .card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 0 1.5rem 0.5rem rgba(48, 196, 245, 0.5); /* Kept colleague's hover effect */
+    background-color: azure;
+}
+
+#part_3 .card i {
+    font-size: 3.6rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+
+#part_3 .card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#part_3 .card p {
+    font-size: 1.4rem;
+    color: #555;
+}
+
+/* ================= About Section (part_2 - Colleague) ================= */
+#part_2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 3rem;
+    width: 100%;
+    max-width: 150rem;
+}
+
+#img2, #title_and_paragraf2 {
+    flex: 1 1 45rem;
+    min-width: 22rem;
+}
+
+#img22 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.8);
+    border-radius: 0.6rem;
+}
+
+#title_and_paragraf2 h1 {
+    font-size: 3.5rem; /* Unified heading size */
+    margin-bottom: 2rem;
+}
+
+#title_and_paragraf2 p {
+    margin-bottom: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+/* ================= Featured Books Section (part_4 - Colleague) ================= */
+
+#part_4 {
+    padding: 6rem 2rem;
+    max-width: 150rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#part_4 .main-title {
+    font-size: 3.5rem; /* Unified heading size */
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+}
+
+.featured-carousel {
+    display: flex;
+    gap: 4rem;
+    overflow-x: auto;
+    padding-bottom: 1.5rem;
+    scrollbar-width: thin;
+}
+
+.fcard {
+    flex: 0 0 18rem;
+    background: #fff;
+    border: 0.1rem solid #d1d9e6;
+    border-radius: 1.5rem;
+    padding: 1.2rem;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.fcard:hover {
+    transform: translateY(-1.5rem);
+    box-shadow: 0 0.8rem 2.5rem rgba(18, 211, 245, 0.6);
+}
+
+.fcard img {
+    width: 90%;
+    height: 22rem;
+    object-fit: cover;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.fcard h4 { font-size: 1.5rem; margin-bottom: 0.6rem; }
+.fcard p { font-size: 1.2rem; color: #555; }
+.fcard span { color: #22b7e4; }
+
+.fcard .price {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.fcard .old {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.fcard button {
+    padding: 0.6rem 1.2rem;
+    border: 0.1rem solid var(--primary);
+    background: white;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.4rem;
+}
+
+.fcard button:hover {
+    background: rgba(18, 211, 245, 0.1);
+}
+
+/* ================= New Arrivals (My New Section) ================= */
+.second-sec {
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.adress {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+    border-bottom: 0.2rem solid var(--primary);
+}
+
+.arrivals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.book-box2 {
+    background: white;
+    border: 0.1rem solid #eee;
+    padding: 1.5rem;
+    transition: 0.3s;
+}
+
+.book-box2:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border-color: var(--primary);
+}
+
+.book-box2 .image img {
+    width: 100%;
+    height: 25rem;
+    object-fit: contain;
+}
+
+.text1-book { font-size: 1.6rem; font-weight: bold; margin: 1rem 0; }
+.text3-book { color: var(--primary); font-size: 1.5rem; }
+.book-btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: 0.1rem solid var(--primary);
+    color: black;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+.book-btn:hover { background: var(--primary); color: white; }
+.checked { color: #98c3bd; }
+.stars { font-size: 1.4rem; margin: 1rem 0; }
+
+
