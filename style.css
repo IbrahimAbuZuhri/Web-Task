@@ -501,5 +501,21 @@ header button:hover {
     color: var(--primary);
     font-size: 1.2rem;
 }
+/* ================= Footer (My New Section) ================= */
+#footer {
+    background: #e0e0e0;
+    padding: 5rem 5% 2rem;
+}
 
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.columns > div { flex: 1 1 20rem; }
+
+.col1 img { width: 15rem; margin-bottom: 1.5rem; }
+.col1 p { font-size: 1.3rem; line-height: 1.6; }
 
