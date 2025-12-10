@@ -627,3 +627,13 @@ header button:hover {
     .fcard { flex: 0 0 15rem; }
     .fcard img { height: 18rem; }
     .arrivals-grid { grid-template-columns: 1fr; } /* Single column for phone */
+/* Digital Book Banner adaptation */
+    #digital_book { margin: 2rem 0; }
+    .digital-text-overlay { 
+        position: static; 
+        transform: none; 
+        max-width: 100%; 
+        padding: 2rem; 
+        background: rgba(255, 255, 255, 0.9);
+        text-align: center;
+    }
