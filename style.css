@@ -553,3 +553,15 @@ header button:hover {
 }
 
 .highlight { color: var(--primary); font-weight: bold; }
+/* ================= Responsive Design (Unified) ================= */
+
+/* Tablet (iPad Pro approx 1024px) */
+@media screen and (max-width: 1024px) {
+    html { font-size: 55%; } /* Scale down slightly */
+    
+    #part_1, #part_2 { flex-direction: column-reverse; text-align: center; }
+    #title_and_paragraf1, #title_and_paragraf2 { width: 100%; text-align: center; }
+
+    #part_1 { padding-top: 8rem; } /* Reduced top padding to fit better */
+    .arrivals-grid { grid-template-columns: repeat(2, 1fr); }
+}
