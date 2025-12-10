@@ -484,7 +484,8 @@ header button:hover {
 .blog_card {
     width: calc(33.33% - 1.333rem); 
     background-color: #fff;
-    
+    padding: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
