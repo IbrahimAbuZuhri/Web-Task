@@ -1,337 +1,345 @@
+body {
+              font-family: "Arial";
+              color: black;
+              background: white;
+              margin: 0;
+              padding: 0;
+        }
+        :root {
+    --primary: rgb(18, 211, 245); 
+    --bg-light: #f7f7f7; 
+    --text-dark: #333;
+}
+
+ 
+:root {
+    --primary: rgb(18, 211, 245); 
+    --bg-light: #f7f7f7; 
+    --text-dark: #333;
+}
+
+/* ------------------ Section of Bahaa ------------------------ */
 
 
-/* ================= New Arrivals (Section of Bahaa) ================= */
 .second-sec {
-    padding: 4rem 5%;
+    padding: 4vh 5%; 
     text-align: center;
 }
 
 .adress {
-    font-size: 3.5rem;
-    margin-bottom: 3rem;
+    font-size: 2.5vw; 
+    margin-bottom: 2vh; 
     display: inline-block;
-    
+    color: var(--text-dark);
 }
 
 .arrivals-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 2rem;
-    
+    grid-template-columns: repeat(auto-fit, minmax(18vw, 1fr)); 
+    gap: 1.5vw; 
 }
 
-
-
 .book-box2 {
-    
     background: white;
-      padding: 1.5rem; 
-      border: 0.1rem solid #d1d9e6; 
-        border-radius: 1.5rem; 
-    box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.1); 
-      cursor: pointer;
-        transition: 0.5s ease;
+    padding: 1vw; 
+    border: 0.1vw solid #d1d9e6; 
+    border-radius: 1vw; 
+    box-shadow: 0 0.4vw 1.5vw rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 
 .book-box2:hover {
-      transform: translateY(-1.5rem);
-      box-shadow: 0 0.8rem 2.5rem rgba(18, 211, 245, 0.6); 
-      background: #fff;
+    transform: translateY(-1vh); 
+    box-shadow: 0 0.8vw 2.5vw rgba(18, 211, 245, 0.6); 
+    background: #fff;
 }
 
 .book-box2 .image img {
     width: 100%;
-    height: 25rem;
+    height: 25vh; 
     object-fit: contain;
 }
 
-.text1-book { font-size: 1.6rem; font-weight: bold; margin: 1rem 0; }
-.text3-book { color: var(--primary); font-size: 1.5rem; }
+.text1-book { font-size: 1.2vw; font-weight: bold; margin: 0.8vh 0; color: var(--text-dark); } 
+.text3-book { color: var(--primary); font-size: 1.1vw; } 
+
 .book-btn {
     display: inline-block;
-    padding: 0.5rem 1.5rem;
-    border: 0.1rem solid var(--primary);
-    color: black;
-    margin-top: 1rem;
-    font-size: 1.3rem;
+    padding: 0.4vw 1vw;
+    border: 0.1vw solid var(--primary); 
+    color: var(--text-dark);
+    margin-top: 0.8vh;
+    font-size: 1vw;
     transition: 0.3s;
 }
 .book-btn:hover { background: var(--primary); color: white; }
-.checked { color: #98c3bd; }
-.stars { font-size: 1.4rem; margin: 1rem 0; 
-}
-/* ================= Reviews Section (Section of Bahaa) ================= */
+
+.checked { color: var(--primary); } 
+.stars { font-size: 1.1vw; margin: 0.8vh 0; }
+
+/* ================= Reviews Section ================= */
 #reviews {
-    padding: 5rem 5%;
-    background-color: var(--bg-light);
+    padding: 4vh 5%;
+    background-color: var(--bg-light); 
 }
 
 .reviews-h1 {
     text-align: center;
-    font-size: 3.5rem;
-    margin-bottom: 4rem;
+    font-size: 2.5vw; 
+    margin-bottom: 3vh;
 }
 
 .reviews_cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1.5vw;
     justify-content: center;
 }
 
 .reviews_card {
-    flex: 1 1 25rem;
+    flex: 1 1 18vw; 
     background: white;
-    padding: 2rem;
-    border: 0.1rem solid #d1d9e6; 
-    box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.1);
-    border-radius: 1.5rem;
+    padding: 1.5vw;
+    border: 0.1vw solid #d1d9e6; 
+    box-shadow: 0 0.4vw 1.5vw rgba(0, 0, 0, 0.1);
+    border-radius: 1vw;
     transition: all 0.5s ease;
     position: relative;
 }
 
 .reviews_card:hover {
-      transform: translateY(-1.5rem);
-      box-shadow: 0 0.8rem 2.5rem rgba(18, 211, 245, 0.6);
+    transform: translateY(-1vh);
+    box-shadow: 0 0.8vw 2.5vw rgba(18, 211, 245, 0.6);
 }
 
 .reviews_img {
-      width: 6rem;
-      height: 6rem;
-      border-radius: 50%;
-      object-fit: cover;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.reviews_h3 { font-size: 1.6rem; margin: 1rem 0; }
-.reviews_p { font-size: 1.3rem; line-height: 1.5; color: #555; }
+.reviews_h3 { font-size: 1.2vw; margin: 0.8vh 0; color: var(--text-dark); }
+.reviews_p { font-size: 1vw; line-height: 1.5; color: #555; }
 
 .reviews_stars i {
     color: var(--primary); 
-    font-size: 1.4rem;
+    font-size: 1.1vw;
 }
 
 .reviews_qouto {
-      position: absolute;
-      top: 1rem;
-      right: 2rem; 	
-      font-size: 4rem;
-      color: #eee;
+    position: absolute;
+    top: 0.5vh;
+    right: 1.5vw;  
+    font-size: 3vw;
+    color: #eee;
 }
+
+/* ================= Digital Book Banner ================= */
 #digital_book {
     position: relative; 
-    min-height: 80%; 
+    min-height: 40vh; 
 }
 
 .digital_book_img {
     width: 100%;
-    height: 100%;
+    height: 40vh; 
     display: block;
     object-fit: cover;
 }
-
 
 .digital-text-overlay { 
     position: absolute; 
     top: 80%; 
-    left: 10%; 
+    left: 8%; 
     transform: translateY(-50%);
-    
-    max-width: 50%; 
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    color: #ffffff; 
+    max-width: 40%; 
+    padding: 1.5vw;
+    border-radius: 0.5vw;
+    color: var(--text-dark); 
 }
-
 
 .digital-text-overlay button { 
-    background-color: #089da1;
+    background-color: var(--primary); 
     color: white;
     border: none;
-    padding: 1rem 3rem;
-    margin-top: 15px; 
+    padding: 0.8vh 2.5vw;
+    margin-top: 1.5vh; 
     cursor: pointer;
-    border-radius: 0.5rem;
-    font-size: 1.5rem;
+    border-radius: 0.5vw;
+    font-size: 1.2vw;
 }
-.digital-text-overlay h1 { font-size: 4rem; margin-bottom: 1rem; color: black; }
-.digital-text-overlay p { font-size: 1.6rem; margin-bottom: 2rem; color: var(--text-dark); }
+.digital-text-overlay h1 { font-size: 3vw; margin-bottom: 0.8vh; color: var(--text-dark); }
+.digital-text-overlay p { font-size: 1.3vw; margin-bottom: 1.5vh; color: var(--text-dark); }
 
+/* ================= Blog Section ================= */
+#blog { 
+    padding-top: 8vh; 
+    padding-bottom: 4vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .blog_cards {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-    gap: 2rem; 
-    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 1.5vw; 
+    margin-top: 2vh;
 }
+
 .blog_card {
-    width: calc(33.33% - 1.333rem); 
     background-color: #fff;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 0.8vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
 .blog_card:hover {
-    transform: translateY(-0.5rem);
-    box-shadow: 0 1rem 2rem rgba(18, 211, 245, 0.3);
+    transform: translateY(-0.5vh);
+    box-shadow: 0 1vw 2vw rgba(18, 211, 245, 0.3);
 }
 
 .blog_image img {
     width: 100%;
-    height: 250px; 
+    height: 25vh; 
     object-fit: cover;
     display: block;
-    border-radius: 0.5rem 0.5rem 0 0;
-    margin-bottom: 1rem;
+    border-radius: 0.5vw 0.5vw 0 0;
+    margin-bottom: 0.8vh;
 }
 
 .blog_icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
-    padding-top: 0.5rem;
-    border-top: 0.1rem solid #eee; 
-    font-size: 0.9rem;
+    margin-top: 0.8vh;
+    padding-top: 0.4vh;
+    border-top: 0.1vw solid #eee; 
+    font-size: 0.8vw;
 }
 
 .blog_icons i {
-    color: #089da1; 
-    margin-right: 0.5rem;
+    color: var(--primary); 
+    margin-right: 0.4vw;
 }
-/* ================= Footer (Section of Bahaa) ================= */
+
+/* ================= Footer ================= */
 #footer {
     background: #e0e0e0;
-    padding: 5rem 5% 2rem;
+    padding: 4vh 5% 1.5vh;
 }
 
 .columns {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
-    justify-content: space-between;
+    gap: 1vw; 
+    justify-content: space-between; 
 }
 
-.columns > div { flex: 1 1 20rem; }
+.columns > div { flex: 1 1 15vw; } 
 
-.col1 img { width: 15rem; margin-bottom: 1.5rem; }
-.col1 p { font-size: 1.3rem; line-height: 1.6; }
-#footer h3 { font-size: 1.6rem; margin-bottom: 2rem; }
+
+.col1 img { 
+    width: 8vw; 
+    height: auto;
+    margin-bottom: 1vh; 
+}
+
+.col1 p { font-size: 1vw; line-height: 1.6; color: var(--text-dark); }
+#footer h3 { font-size: 1.2vw; margin-bottom: 1.5vh; color: var(--text-dark); }
 
 .elements a, .elements span, .elements div {
     display: block;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+    margin-bottom: 0.8vh;
+    font-size: 1vw;
     color: #333;
+}
+
+.newsletter-form-container { 
+    display: flex;
+    align-items: center;
+    gap: 0.5vw; 
 }
 
 .textarea {
     width: 100%;
-    padding: 1rem;
+    padding: 0.8vh 0.8vw;
     border: none;
-    margin-bottom: 1rem;
-    border-radius: 2rem;
-    font-size: 1.4rem;
+    margin-bottom: 0; 
+    border-radius: 1.5vw 0 0 1.5vw; 
+    font-size: 1.1vw;
+    flex-grow: 1;
 }
 .button {
-    padding: 0.8rem 2rem;
+    padding: 0.6vh 1.5vw;
     background: var(--primary);
     color: white;
     border: none;
-    border-radius: 2rem;
+    border-radius: 0 1.5vw 1.5vw 0; 
     cursor: pointer;
-    font-size: 1.4rem;
+    font-size: 1.1vw;
+    margin-top: 0; 
 }
+
 .last_row {
     text-align: center;
-    margin-top: 4rem;
-    padding-top: 2rem;
-    border-top: 0.1rem solid #ccc;
-    font-size: 1.4rem;
+    margin-top: 3vh;
+    padding-top: 1.5vh;
+    border-top: 0.1vw solid #ccc;
+    font-size: 1.1vw;
+    width: 100%; 
+    display: block;
 }
 
-.highlight { color: var(--primary); font-weight: bold; }
-
 @media screen and (max-width: 1024px) {
-    html { font-size: 55%; }
-    
-    #row { gap: 3rem; } 
 
-    #part_1, #part_2 { flex-direction: column-reverse; text-align: center; }
-    #title_and_paragraf1, #title_and_paragraf2 { width: 100%; text-align: center; }
-
-    #part_1 { padding-top: 8rem; } 
-    
     .arrivals-grid { 
-        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr)); 
+        grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr)); 
+    }
+
+    .blog_cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .col1 img {
+        width: 10vw; 
     }
     
-    .blog_card {
-        width: calc(50% - 1rem); 
+    .columns {
+        gap: 1.5vw; 
     }
+    
+    .columns > div { flex: 1 1 20vw; } 
 }
 
 @media (max-width: 800px) {
-    html { font-size: 50%; }
 
-    #row {
-        flex-direction: row; 
-        height: 6rem; 
-        padding: 0 2rem;
-        gap: 1rem;
-        box-shadow: 0 0.1rem 0.6rem var(--primary);
-        justify-content: space-between; 
-    }
-    
-    #links {
-        display: none; 
-        position: absolute;
-        top: 6rem; 
-        left: 0;
-        width: 100%;
-        background-color: #fff;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem 2rem;
-        box-shadow: 0 0.1rem 0.6rem rgba(0,0,0,0.1);
-        z-index: 999; 
-    }
-    #extra {
-        order: 1; 
-        width: auto;
-        display: flex;
-        justify-content: flex-end;
-        padding: 0;
-        font-size: 2rem;
-    }
-    #extra i { margin-left: 1.5rem; }
-    .menu-toggle { display: block; }
-    
-    #part_1 { padding-top: 8rem; }
-    #part_1, #part_2 { flex-direction: column; } 
-
-    #title_and_paragraf1 h1, #title_and_paragraf2 h1 { font-size: 2.8rem; }
-    .fcard { flex: 0 0 15rem; }
-    .fcard img { height: 18rem; }
-    .arrivals-grid { grid-template-columns: 1fr; } 
-    
-    /* Digital Book Banner adaptation */
     .digital-text-overlay { 
-        position: absolute; 
         top: 50%; 
         left: 50%;
         transform: translate(-50%, -50%); 
         max-width: 90%; 
-        padding: 2rem; 
+        padding: 2vh; 
         background: rgba(255, 255, 255, 0.9);
         text-align: center;
     }
-    .digital-text-overlay h1 { color: var(--text-dark); } 
-    .digital-text-overlay p { color: var(--text-dark); }
+    .digital-text-overlay h1 { font-size: 3vh; color: var(--text-dark); } 
+    .digital-text-overlay p { font-size: 1.5vh; color: var(--text-dark); }
+    .digital-text-overlay button { font-size: 1.5vh; padding: 1vh 3vw; } 
 
-    .blog_card {
-        width: 100%; 
+    .blog_cards {
+        grid-template-columns: 1fr; 
     }
+    
+    .col1 img {
+        width: 15vw; 
+    }
+    
+    .columns {
+        gap: 1.5vw; 
+    }
+    
+    .columns > div { flex: 1 1 100%; } 
 }
